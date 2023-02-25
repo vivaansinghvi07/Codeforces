@@ -1,4 +1,4 @@
-# Codeforces
+# Codeforces Repository
 
 Stores problems that I solve in Codeforces!
 
