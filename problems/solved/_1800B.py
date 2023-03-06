@@ -3,8 +3,7 @@ al = "abcdefghijklmnopqrstuvwxyz"
 for _ in R(I(IN())):
     n, k = M(I, IN().split(" "))
     s, cs = IN(), {}
-    t = 0
-    r = 0
+    t = r = 0
     for c in al:
         cs[c] = cs[c.upper()] = 0
     for c in s:
