@@ -1,0 +1,1 @@
+print(str(1/(int(input())/sum(list(map(int, input().split(" ")))))))
