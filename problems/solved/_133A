@@ -1,0 +1,1 @@
+s = input(); print("YES") if s.__contains__("H") or s.__contains__("9") or s.__contains__("Q") else print("NO")
