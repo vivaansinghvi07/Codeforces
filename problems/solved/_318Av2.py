@@ -1,0 +1,1 @@
+n, k = map(int, input().split()); print(k*2-1) if k<=-(-n//2) else print(n-(n%2)-(n-k)*2)
