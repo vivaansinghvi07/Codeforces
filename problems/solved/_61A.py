@@ -1,0 +1,1 @@
+for c, d in zip(input(), input()): print(sum([c != d]), end="")
