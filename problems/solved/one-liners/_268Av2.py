@@ -1,0 +1,1 @@
+a = " ".join([input() for _ in range(int(input()))]).split(); h, g = a[::2], a[1::2]; print(sum([hh==gg for hh in h for gg in g]))
