@@ -1,1 +1,1 @@
-print(len(set(input()+","))-4)
+print(max(len(set(input()+", "))-4, 0))
