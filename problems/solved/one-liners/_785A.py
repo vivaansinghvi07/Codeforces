@@ -1,0 +1,1 @@
+print(sum([{"C": 6, "T": 4, "O": 8, "D": 12, "I": 20}[input()[0]] for _ in range(int(input()))]))
