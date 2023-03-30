@@ -1,0 +1,1 @@
+input(); a=[i%2 for i in map(int, input().split())]; print(a.index(1 if sum(a) == 1 else 0)+1)
