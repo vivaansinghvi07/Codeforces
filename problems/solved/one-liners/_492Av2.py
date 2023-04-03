@@ -1,0 +1,1 @@
+n, l = list(map(int, input().split())); a = sorted(list(map(int, input().split()))); d = max([a[i+1] - a[i] for i in range(n-1)]) if n != 1 else 0; print(max(d / 2, a[0] - 0, l - a[n-1]))
