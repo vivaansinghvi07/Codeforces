@@ -1,0 +1,2 @@
+I, IN, M, R, LN, LS, P, S, ST, A, SO, MX, MN = int, input, map, range, len, list, print, sum, str, abs, sorted, max, min; inp = lambda: LS(M(I, IN().split()))
+n, l = inp(); a = SO(inp()); d = MX([a[i+1] - a[i] for i in R(n-1)]) if n != 1 else 0; P(MX(d / 2, a[0] - 0, l - a[n-1]))
