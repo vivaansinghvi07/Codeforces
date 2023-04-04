@@ -1,0 +1,1 @@
+n, a = int(input()), list(map(int, input().split())); print(abs(min([sum(a[:i:]) for i in range(n+1)])))
