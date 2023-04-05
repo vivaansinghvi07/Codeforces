@@ -1,0 +1,1 @@
+n, k = map(int, input().split()); a = [n * l % 10 == 0 or n * l % 10 == k for l in range(1, 11)]; print(a.index(True) + 1)
