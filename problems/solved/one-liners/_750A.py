@@ -1,0 +1,1 @@
+d, b = map(int, input().split()); c = [b + 5 * (a) * (a+1) / 2 <= 240 for a in range(1,d+1)]; print((c.index(False) if not c[-1] else d))
