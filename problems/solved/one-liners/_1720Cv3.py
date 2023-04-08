@@ -1,0 +1,1 @@
+for _ in range(int(input())): r, c = map(int, input().split()); m = [list(map(int, input())) for _ in range(r)]; s = sum([sum(a) for a in m]); a = min([sum(m[i][j:j+2]) + sum(m[i+1][j:j+2]) for j in range(c-1) for i in range(r-1)]); print(s if a <= 2 else s - a + 2)
