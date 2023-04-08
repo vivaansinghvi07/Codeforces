@@ -46,15 +46,14 @@ for _ in R(I(IN())):
 
     for rr in R(r):
         for cc in R(c):
-            ss = m[rr][cc] == 0
-            if not ss: break
+            if not m[rr][cc]==0: break
             aa = 0
-            for i in R(-1, 2, 2):
-                for j in R(-1, 2, 2):
+            for i in [-1, 1]:
+                for j in [-1, 1]:
                     try: aa += m[cc+i][rr+j]
                     except: aa += 1
-            f = aa < 4
-            if f: break
+            if aa < 4:
+                f = True
 
     if f:
         P(s)
