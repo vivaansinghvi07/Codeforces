@@ -4,12 +4,11 @@ for _ in R(I(IN())):
     for i in R(n): c[a[i]-1] = b[i]-1
     s = 0
     for i in R(n): 
-        b = True; ii = i
         if d[i]: continue
         while True: 
-            d[ii] = True
-            ii = c[ii]
-            if d[ii]:
+            d[i] = True
+            i = c[i]
+            if d[i]:
                 s+=1
                 break
     P(pow(2, s, 10**9+7))
