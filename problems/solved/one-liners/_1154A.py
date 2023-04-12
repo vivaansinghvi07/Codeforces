@@ -1,0 +1,1 @@
+n = sorted(list(map(int, input().split()))); print(" ".join([str(n[-1] - n[i]) for i in range(3)]))
