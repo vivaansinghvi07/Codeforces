@@ -1,0 +1,1 @@
+for _ in range(int(input())): n = int(input()); a = sorted(list(map(int, input().split()))); b = max([abs(a[i+1] - a[i]) for i in range(n-1)]) if n > 1 else 0; print(["NO", "YES"][b <= 1])
