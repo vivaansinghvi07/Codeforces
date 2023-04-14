@@ -1,0 +1,1 @@
+for _ in range(int(input())): input(); a = [list(aa).count("1") for aa in "".join(input().split()).split("2")]; print(max([(sum(a[:i:])) // 2 + (1 if sum(a[:i:]) != 0 else 0) + a[i] for i in range(len(a))]))
