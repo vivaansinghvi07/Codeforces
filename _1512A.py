@@ -3,7 +3,7 @@ for _ in range(int(input())):
     a = list(map(int, input().split()))
     c = {}
     for i in a:
-        if not c[i]:
+        if not i in c:
             c[i] = 1
         else:
             c[i] += 1
