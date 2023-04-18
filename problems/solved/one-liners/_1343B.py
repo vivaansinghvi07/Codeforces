@@ -1,0 +1,1 @@
+for _ in range(int(input())): n = int(input()); a = list(range(2, n+1, 2)) + list(range(1, n-1, 2)) + [int(n * 1.5 - 1)]; print("YES\n" + " ".join(list(map(str, a))) if n % 4 == 0 else "NO")
