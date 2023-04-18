@@ -1,0 +1,1 @@
+for _ in range(int(input())): import math; print(["YES", "NO"][math.log2(int(input()))%1==0])
