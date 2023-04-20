@@ -1,0 +1,1 @@
+n = int(input()); a = sorted(list(map(int, input().split()))); m = int(input()); b = [int(input()) for _ in range(m)]; c = [sum([j >= i for i in a]) for j in b]; print("\n".join(list(map(str, c))))
