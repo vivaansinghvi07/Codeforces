@@ -1,0 +1,1 @@
+s = input(); i = int(s[-1] > s[-2]) - 2; print(int(s if int(s) >= 0 else s[:i:] if i == -1 else s[:i:] + s[i+1]))
