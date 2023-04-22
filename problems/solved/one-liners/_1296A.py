@@ -1,0 +1,1 @@
+for _ in range(int(input())): n = int(input()); a = list(map(int, input().split())); d = [int(i % 2 == 1) for i in a]; print("YES" if (sum(d) != n and sum(d) != 0) or (sum(d) == n and n % 2 == 1) else "NO")
