@@ -1,0 +1,1 @@
+for _ in range(int(input())): a = {letter: index for index, letter in enumerate(list(input()))}; b = input(); print(sum([abs(a[b[i]] - a[b[i + 1]]) for i in range(len(b) - 1)]))
