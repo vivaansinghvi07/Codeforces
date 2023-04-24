@@ -1,0 +1,1 @@
+for _ in range(int(input())): s = input(); a, b = s[0].count("?"), s[1:].count("?"); print((9**a)*(10**b)*(s[0]!="0"))
