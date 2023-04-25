@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _1822A {
+public class _1822Av1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t, n, s, m, x, d;
