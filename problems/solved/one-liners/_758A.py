@@ -1,0 +1,1 @@
+n = int(input()); a = sorted(list(map(int, input().split()))); m = a[n-1]; print(m*(n-1)-sum(a[:n-1]))
