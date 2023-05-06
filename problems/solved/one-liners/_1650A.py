@@ -1,0 +1,1 @@
+for _ in range(int(input())): s = input(); c = input(); arr = [i%2 if s[i] == c else 1 for i in range(len(s))]; print("YES" if sum(arr) < len(s) and not (len(s) == 1 and s != c) else "NO")
