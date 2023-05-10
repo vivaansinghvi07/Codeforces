@@ -1,0 +1,1 @@
+for _ in range(int(input())): s = input(); print(len(s)-1 if len(set(s)) != 1 else -1)
