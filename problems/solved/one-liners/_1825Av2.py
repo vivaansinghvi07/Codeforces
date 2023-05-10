@@ -1,0 +1,1 @@
+print("\n".join([str(len(s)-1 if len(set(s)) != 1 else -1) for s in [input() for _ in range(int(input()))]]))
