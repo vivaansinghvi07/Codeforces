@@ -1,1 +1,1 @@
-print("\n".join([str(sum([t[i] != "codeforces"[i] for i in range(10)])) for t in [*open(0)][1::]]))
+print("\n".join([str(sum([i != j for i, j in zip(t, "codeforces")])) for t in [*open(0)][1::]]))
