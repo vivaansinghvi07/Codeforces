@@ -1,1 +1,1 @@
-print("\n".join([str(len(t)) for t in [{*map(int, t.split())} for t in [*open(0)][2::2]]]))
+print("\n".join([str(len({*t.split()}))for t in [*open(0)][2::2]]))
