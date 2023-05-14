@@ -21,6 +21,7 @@ public class _1826Bv1 {
             }
             System.out.println(gcfArray(diffs));
         }
+        scan.close();
     }
 
     public static void penIs(int n) {
