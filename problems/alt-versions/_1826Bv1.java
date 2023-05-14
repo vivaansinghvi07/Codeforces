@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _1826B {
+public class _1826Bv1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t, n;
