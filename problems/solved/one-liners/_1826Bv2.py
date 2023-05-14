@@ -1,0 +1,1 @@
+import math; print("\n".join([str(math.gcd(*(abs(t[i] - t[len(t)-i-1]) for i in range(len(t)//2)))) for t in [list(map(int, t.split())) for t in [*open(0)][2::2]]]))
