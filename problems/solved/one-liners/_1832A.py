@@ -1,0 +1,1 @@
+print("\n".join(["YNEOS"[len(set(t[:len(t)//2]))==1::2] for t in [t.strip() for t in [*open(0)][1::]]]))
