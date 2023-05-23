@@ -1,0 +1,1 @@
+print("\n".join([" ".join([str(a if (a:=i-m) != 0 else m-sorted(t)[-2]) for i in t]) for t, m in [[list(map(int, t.split())), max(map(int, t.split()))] for t in [*open(0)][2::2]]]))
