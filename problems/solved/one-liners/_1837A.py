@@ -1,0 +1,1 @@
+print("\n".join([f"1\n{x}" if x % k else f"2\n{x-1} {1}" for (x, k) in [map(int, t.split()) for t in [*open(0)][1:]]]))
