@@ -1,0 +1,1 @@
+print("\n".join(["YNEOS"[sum(map(int, t[3:6:]))!=sum(map(int, t[:3:]))::2] for t in [*open(0)][1::]]))
