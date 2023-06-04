@@ -1,0 +1,1 @@
+print(*[str(-(-t[0]//t[1]) + int(t[0]%t[1]!=1 and t[1] != 1)) for t in map(lambda x: list(map(int, x.split())), [*open(0)][1:])], sep="\n")
