@@ -1,0 +1,1 @@
+print("\n".join([str(j) if (j:=sum(t)-len(t)) >= 0 else "1" for t in [[*map(int, t.split())] for t in [*open(0)][2::2]]]))

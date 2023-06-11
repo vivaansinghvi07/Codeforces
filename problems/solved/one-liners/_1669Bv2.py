@@ -1,0 +1,1 @@
+from collections import Counter; print("\n".join(["-1" if (a:=Counter(t.split()).most_common(1)[0])[1] < 3 else a[0] for t in [*open(0)][2::2]]))

@@ -1,0 +1,1 @@
+print("\n".join(["NYOE S"[not t or min(map(len, map(set, t)))>1::2] for t in [[i for i in t.strip().split("W") if i != ''] for t in [*open(0)][2::2]]]))

@@ -1,0 +1,1 @@
+print("\n".join(["NYOE S"[n%2==k%2 or n%2==0 or n%k==0::2] for n, k in [map(int, t.split()) for t in [*open(0)][1::]]]))

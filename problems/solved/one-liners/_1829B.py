@@ -1,0 +1,1 @@
+import re; print("\n".join(str(max([len(s) for s in re.findall('0+', t)] + [0])) for t in [tt.replace(' ', '') for tt in [*open(0)][2::2]]))

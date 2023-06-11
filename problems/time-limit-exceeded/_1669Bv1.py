@@ -1,0 +1,1 @@
+print("\n".join(["-1" if (a:=max(t.values())) < 3 else str([*t.keys()][[*t.values()].index(a)]) for t in [{n: t.count(n) for n in {*t}} for t in [list(map(int, t.split())) for t in [*open(0)][2::2]]]]))

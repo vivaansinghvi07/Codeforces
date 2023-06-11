@@ -1,0 +1,1 @@
+f = lambda x: x%2; print("\n".join(["NYOE S"[(len(set(map(f, t[::2]))))==1 and len(set(map(f, t[1::2])))==1::2] for t in [list(map(int, t.split())) for t in [*open(0)][2::2]]]))

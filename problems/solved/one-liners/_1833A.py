@@ -1,0 +1,1 @@
+print("\n".join([str(len(set([a[i]+a[i+1] for i in range(len(a)-1)]))-1) for a in [*open(0)][2::2]]))

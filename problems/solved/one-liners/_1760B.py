@@ -1,0 +1,1 @@
+print("\n".join([str("abcdefghijklmnopqrstuvwxyz".index(m[-1])+1) for m in map(sorted, [*open(0)][2::2])]))

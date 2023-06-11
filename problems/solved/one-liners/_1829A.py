@@ -1,0 +1,1 @@
+print("\n".join([str(sum([i != j for i, j in zip(t, "codeforces")])) for t in [*open(0)][1::]]))

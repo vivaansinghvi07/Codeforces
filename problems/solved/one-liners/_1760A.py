@@ -1,0 +1,1 @@
+print("\n".join([str(a[1]) for a in [sorted(list(map(int, a.split()))) for a in [*open(0)][1::1]]]))
