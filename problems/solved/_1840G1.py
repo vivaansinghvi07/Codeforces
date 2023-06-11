@@ -1,20 +1,9 @@
-cache = [False] * (1_000_001)
-first = [0] * 1_000
-dist = 0
-for i in range(1_000):
-    n = int(input())
-    if cache[n] == True:
-        print(f"! {dist - first.index(n)}", flush=True)
-        exit()
-    cache[n] = True
-    first[i] = n
-    dist += 1
-    print("+ 1", flush=True)
-for i in range(1_000):
-    n = int(input())
-    if cache[n] == True:
-        print(f"! {dist - first.index(n)}", flush=True)
-        exit()
-    cache[n] = True
-    dist += 1000
-    print(f"+ 1000", flush=True)
+c, f, d = [False] * (1_000_001), [0] * 1_000, 0
+def s(a):
+    global c, f, d
+    for i in range(1000):
+        n = int(input())
+        if c[n]: print(f"! {d - f.index(n)}", flush=True); exit()
+        if a == 1: f[i] = n
+        c[n] = True; d += a; print(f"+ {a}", flush=True)
+s(1); s(1000)
