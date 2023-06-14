@@ -1,0 +1,1 @@
+print("\n".join(['ABloibc e'[t<=4::2]for t in map(int, [*open(0)][1::1])]))
