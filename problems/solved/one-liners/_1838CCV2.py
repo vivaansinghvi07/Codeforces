@@ -1,0 +1,1 @@
+print("\n".join(["\n".join([" ".join([str(m*i + j) for j in range(1, m+1)]) for i in [*range(n-2, -1, -2)] + [*range(n-1, -1, -2)]]) for [n, m] in map(lambda x: map(int, x.split()), [*open(0)][1::])]))
