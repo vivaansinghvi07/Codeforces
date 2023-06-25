@@ -1,1 +1,0 @@
-print("\n".join([f"{sum(map(abs, a))} {len(''.join(list(map(lambda x: '1' if x<0 else '2', a))).strip('2').split('2'))}" for a in map(lambda x: list(map(int, x.replace(' 0', '').strip().split())), [*open(0)][2::2])]))
