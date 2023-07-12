@@ -6,5 +6,3 @@ def f(b):
 	print('DRAW')
 for _ in range(int(input())):
 	f([[*input()] for _ in range(3)])
-	
-	

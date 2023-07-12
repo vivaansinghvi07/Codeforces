@@ -22,5 +22,4 @@ for _ in range(int(input())):
 	if len({*Counter(c)}) == 1:
 		print('- 0', flush=True)
 		c = inp()
-	print('!', c.index(({*Counter(c)}-{dif}).pop())+1, flush=True)		
-		
+	print('!', c.index(({*Counter(c)}-{dif}).pop())+1, flush=True)
