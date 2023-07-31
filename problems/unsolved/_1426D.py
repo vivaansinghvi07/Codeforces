@@ -9,6 +9,4 @@ for i, j in enumerate(a):
         t += 1
         lp = (v, i)
     m[s] = i + 1
-    try: print(t, s, lp)
-    except: pass
 print(t)
