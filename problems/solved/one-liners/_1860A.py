@@ -1,0 +1,1 @@
+print("\n".join(["NO" if s == "()" else f"YES\n{'()' * len(s)}" if any([t in s for t in ['((', '))']]) else f"YES\n{'(' * len(s) + ')' * len(s)}" for s in map(lambda x: x.strip(), [*open(0)][1:])]))
