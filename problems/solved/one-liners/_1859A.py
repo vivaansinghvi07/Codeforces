@@ -1,0 +1,1 @@
+print("\n".join(['-1' if (m:=max(a)) is not None and len({*a}) == 1 else f"{len(a)-a.count(m)} {a.count(m)}\n{' '.join([str(i) for i in a if i != m])}\n{' '.join([str(i) for i in a if i == m])}" for a in map(lambda x: list(map(int, x.split())), [*open(0)][2::2])]))
