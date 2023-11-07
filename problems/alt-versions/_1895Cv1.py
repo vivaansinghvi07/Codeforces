@@ -62,6 +62,7 @@ for x in a:
         e1[3][y] = e1[3].get(y, 0) + 1
         e1[5][y] = e1[5].get(y, 0) + 1
 
+print(he,e1,e2,e3,sep="\n")
 o = 0
 for x in a:
     d = len(x)
